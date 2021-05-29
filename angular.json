@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "dio-santander-angular"
+  "defaultProject": "dio-santander-angular",
+  "cli": {
+    "analytics": "46381e9a-91d9-4ce8-b69d-938a41276bb6"
+  }
 }
