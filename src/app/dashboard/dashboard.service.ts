@@ -6,7 +6,7 @@ import Stock from '../shared/models/stock-model';
   providedIn: 'root'
 })
 export class DashboardService {
-  readonly baseUrl = "http://bootcamp-dio-santander-stefan.herokuapp.com/bootcamp"
+  readonly baseUrl = "https://bootcamp-dio-santander-stefan.herokuapp.com/bootcamp"
   constructor(private http: HttpClient) { }
 
   async getStocks(): Promise<Stock[]> {
